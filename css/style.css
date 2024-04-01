@@ -1,0 +1,140 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+.logologo {
+    width: 174px;
+    padding: 1%;
+}
+
+nav {
+    width: 88%;
+    padding: 1%;
+    background-color: #6B6E71;
+    color: #DCD5CB;
+}
+
+header ul {
+    width: 64%;
+    margin-left: auto;
+
+}
+
+header li {
+    padding: 1%;
+    font-size: large;
+}
+
+.heroimg {
+    height: 400px;
+    padding: 25px;
+}
+
+.content {
+    width: 700px;
+    margin: 0 auto;
+    color: #DCD5CB;
+    text-align: center;
+    padding: 5%;
+    background-color: #6B6E71;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "myself pcontainer"
+    "myself resume" 
+    ;
+}
+
+.resume {
+    display: grid;
+}
+
+footer {
+    background-color: #6B6E71;
+    padding: 1%;
+    width: 98%;
+    color: #DCD5CB;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 96%;
+    text-align: center;
+}
+
+footer li {
+    padding: 1%;
+    font-size: large;
+}
+
+.myself {
+    width: 300px;
+}
+
+body {
+    background-color: #232834;
+}
+
+.imgcontainer {
+    float: left;
+    padding: 1%;
+}
+
+button {
+    text-align: center;
+}
+
+.pcontainer {
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.prototypeExamples {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "prototype1 prototype2 prototype3"
+    ;
+    color: #DCD5CB;
+    text-align: center;
+    padding: 10%;
+}
+
+.prototype1 {
+    display: grid;
+    width: 90%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: #6B6E71;
+}
+
+.prototype2 {
+    display: grid;
+    width: 90%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: #6B6E71;
+}
+
+.prototype3 {
+    display: grid;
+    width: 90%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: #6B6E71;
+}
+
+.drive {
+    width: 440px;
+}
